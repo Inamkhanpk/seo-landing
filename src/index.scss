@@ -1,0 +1,68 @@
+
+
+
+$abacd: #EEF1FD;
+
+
+
+body {
+  margin: 0;
+  background-color: $abacd;
+}
+
+html{
+  font-size:20%
+}
+
+
+@media (min-width: 576px) { 
+  html{
+    font-size:20%
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  html{
+    font-size:20%
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  html{
+    font-size:30%
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  html{
+    font-size:30%
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  html{
+    font-size:45%
+  }
+}
+
+$purple: #A646A5;
+
+$buttonColor: #E9E9F8;
+.buttonBorder{
+   border-color:$purple ;
+    background-color: $buttonColor;
+    
+}
+
+
+
+.cardimage{
+  width:8rem;
+  height:8rem
+
+}
+

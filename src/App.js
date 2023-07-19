@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.scss";
+import curve from "./assets/Group 41914.png";
+import Header from "./Component/Header/Header";
+import Carousel from "./Component/Carousel/Carousel";
+import Certificate from "./Component/Certificate/Certificate";
+import Explain from "./Component/Explain/Explain";
+import Rates from "./Component/Rates/Rates";
+import Motivate from "./Component/Motivate/Motivate";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" overflow-hidden ">
+      <div className="container position-relative">
+        {/* <div className="imagecurve">
+          <img src={curve} alt="curve image " />
+        </div> */}
+
+        <Header />
+        <Carousel />
+      </div>
+
+      <div>
+        <Explain />
+      </div>
+      <div>
+        <Rates />
+      </div>
+      <div>
+        <Motivate />
+      </div>
     </div>
   );
 }

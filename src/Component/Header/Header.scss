@@ -1,0 +1,69 @@
+
+
+// .header{
+//     background-color: black;
+//     border-radius: 10px;
+//     position:absolute;
+//     top: 1em;
+   
+    
+   
+    
+    
+// }
+
+// .headers{
+//     background-color: black;
+//     margin-top: 1rem;
+//     // position:absolute;
+//     // top: 1em;
+//     border-radius: 10px;
+    
+    
+// }
+$purple: #A646A5;
+$white: #ffffff;
+.textPhone{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.request{
+    background-color:$purple;
+    padding:1rem;
+    width: 25rem;
+    // height: 5rem;
+    // border-radius: 5px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+
+}
+
+
+
+.textColor{
+ color: $white;
+ font-size: 1.8rem;
+}
+.humburger{
+    border-color: white;
+background-color:white;
+width:10rem;
+height:10rem
+}
+
+.textHeading{
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    align-self:center;
+    margin-left:1rem
+
+}
+
+.textFont{
+font-size: 1.8rem;
+margin-left: 1rem;
+}
